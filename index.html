@@ -18,7 +18,19 @@
         <a id="pageTitle" class="logo">ScriBBler</a>
         <p class="sublogo">Explore, Imagine, Create</p>
     </div> 
-
+    <div id = "postButtons">
+            <p align = "center">
+                <a href = "html/bloglist.html">
+                  <button class= "PostButton">
+                    All Posts 
+                  </button>
+                </a>
+                
+                <button class = "PostButton" id = "CreatePost">
+                  Create Post 
+                </button>
+            </p>
+        </div>
     <div id="myModal" class="modal">                  
         <div class="modal-content">
           <span class="close">
@@ -64,8 +76,30 @@
           </p>
         </div>
       </div>
+
+      <div id="myModalPost" class="modal">                  
+            <div class="modal-Post">
+              <span class="close">&times;</span>
+              <p>
+                <h1>Pen Your Post</h1>
+                <hr class = "hr-shade">
+                <form class = "form-style"> 
+                    
+                <h4>Title</h4>
+                <input type="text" placeholder="Enter title of your post">
+                <h4>Contents</h4>
+                <textarea name="Content" id="textAreaViaModal" cols="150" rows="10"  placeholder="Enter the contents of your post"></textarea>  
+                
+                </form>  
+                <div style="text-align: center;">
+                        <input type="button" value="Create" style="text-align: center;background-color: green;border: none;padding: 14px 20px;color: white;margin: 8px 0;">
+                </div>
+              </p>
+            </div>
+          </div>
    
       <script src = "js\common.js"></script>
+      <script src = "js\index.js"></script>
 </body>
 
 </html>
