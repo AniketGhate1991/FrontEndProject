@@ -8,12 +8,12 @@
 }
 
 .sublogo{
-    font-family: 'Ubuntu Mono', cursive;
+    font-family: 'Ubuntu Mono', monospace;
     margin-top: 0;
     margin: 0 0 0px 10px;
     }
 
-    button.SignIn {
+    button#SignInButton {
         width: 90px;
         padding: 10px;
         cursor: pointer;
@@ -26,8 +26,8 @@
        
         font-family: Palatino Linotype, Helvetica, sans-serif;
        }
-       
-    button.SignUp {
+
+    button#SignUpButton {
            width: 90px;
            padding: 10px;
            cursor: pointer;
@@ -40,4 +40,86 @@
           
            font-family: Palatino Linotype, Helvetica, sans-serif;
           }
-    
+          .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 100; 
+            padding: 30px 20px 100px 20px; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgb(0,0,0); 
+            background-color: rgba(0,0,0,0.7); 
+          }
+          
+          .modal-content {
+            background-color: #fefefe;
+            margin: 2% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 20%;
+            box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.),
+          }
+          .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+          }
+          .close:hover,
+          .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+          }
+          button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        h1{
+            text-align: left;
+            font-family: 'Palatino Linotype', sans-serif;
+            display: inline;
+        }
+
+        .Sign-Up-Button
+  {
+    width: 100% ;
+    background-color: #4caf50 ;
+  
+  }
+ 
+  .form-style input
+  {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #f1f1f1;
+    display: block;
+    width:95%;
+    height:35px;
+  }
+  
+  
+  .hr-Shade
+  {
+    box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
+  }
+  #shift
+  {
+    color: #0000ff
+  }
+  #shift:hover
+  {
+    cursor: pointer ;
+    text-decoration: underline ;
+  }
+  
