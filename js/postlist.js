@@ -5,12 +5,8 @@ var Post4 = document.getElementById("delpost4");
 var Post5 = document.getElementById("delpost5");
 
 function deletepost() {
-    // Fetch the modal
     var modal = document.getElementById("deletepost");
-    // Display the modal to the user
     modal.style.display = "block";
-    Post1.style.display = "block";
-    // Hides the modal if user clicks else where on the display
     window.onclick = function (event) {
       if (event.target == modal) {
         modal.style.display = "none";
@@ -32,6 +28,6 @@ function deletepost() {
   }
 
  
-// When the user clicks on the button, open the modal 
+
 
 
